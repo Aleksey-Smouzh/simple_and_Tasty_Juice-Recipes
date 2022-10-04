@@ -533,6 +533,9 @@ ul {
 .small-article {
     background-color: #fff;
     padding: 4.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .small-article__block-title {
@@ -553,11 +556,15 @@ ul {
 
 }
 
+.small-article__block-wrapper {
+    display: flex;
+}
+
 
 .small-article__content {
-    width: 13%;
-
-
+    margin-left: 10px;
+    width: 43%;
+    padding-left: 3%;
 }
 
 .small-article__title {
