@@ -101,7 +101,7 @@ b {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: .7rem;
     line-height: 18px;
     /* identical to box height, or 150% */
 
@@ -114,7 +114,7 @@ b {
 .block-content__title {
     font-style: normal;
     font-weight: 600;
-    font-size: 85px;
+    font-size: 5rem;
     line-height: 95px;
     /* or 112% */
 
@@ -126,7 +126,7 @@ b {
 .block-content__text {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     /* or 175% */
 
@@ -176,7 +176,7 @@ b {
 .prevue-article__title {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.7rem;
     line-height: 30px;
     /* or 150% */
     color: #121212;
@@ -260,7 +260,7 @@ b {
 
 .card-popular__card-title {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 38px;
     /* or 136% */
 
@@ -306,7 +306,7 @@ b {
 .card-article__title {
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.5rem;
     line-height: 30px;
     /* or 150% */
 
@@ -319,7 +319,7 @@ b {
 .card-article__text {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 26px;
     /* or 186% */
 
@@ -427,7 +427,7 @@ b {
     margin-bottom: 5%;
     font-style: normal;
     font-weight: 400;
-    font-size: 42px;
+    font-size: 3rem;
     line-height: 55px;
     /* or 131% */
 
@@ -448,7 +448,7 @@ b {
     width: 67%;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 23px;
     /* or 177% */
 
@@ -464,7 +464,7 @@ b {
 .top-contributors__block {
     background-color: #fff;
     background-size: cover;
-    width: 29%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -475,7 +475,7 @@ b {
 .top-contributors__title {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.7rem;
     line-height: 32px;
     /* identical to box height, or 133% */
 
@@ -493,7 +493,6 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 50%;
     margin-bottom: 7%;
 }
 
@@ -531,6 +530,7 @@ ul {
 /* ______________ */
 
 .small-article {
+    position: relative;
     background-color: #fff;
     padding: 4.1%;
     display: flex;
@@ -541,12 +541,13 @@ ul {
 .small-article__block-title {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.7rem;
     line-height: 32px;
     /* identical to box height, or 133% */
-
-
     color: #0F1935;
+    position: absolute;
+    left: 74px;
+    top: 18px;
 }
 
 .small-article__wrapper {
@@ -558,8 +559,16 @@ ul {
 
 .small-article__block-wrapper {
     display: flex;
+    width: 100%;
 }
 
+.small-article__block {
+    width: 30%;
+}
+
+.small-article__block-img {
+    width: 100%;
+}
 
 .small-article__content {
     margin-left: 10px;
@@ -570,7 +579,7 @@ ul {
 .small-article__title {
     font-style: normal;
     font-weight: 500;
-    font-size: 17.3481px;
+    font-size: 1.2rem;
     line-height: 25px;
     /* or 142% */
 
@@ -581,7 +590,7 @@ ul {
 .small-article__text {
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: .8rem;
     line-height: 20px;
     /* or 167% */
 
