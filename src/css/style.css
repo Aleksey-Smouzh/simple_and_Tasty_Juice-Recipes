@@ -773,9 +773,32 @@ ul {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 390px) {
+
+    .block-content__head-link {
+        padding-top: 3%;
+        margin-left: 5%;
+    }
+
+    .block-content__head-decr {
+        width: auto;
+
+        height: auto;
+        padding: 1%;
+        text-align: center;
+    }
 
 
 
+    .block-content__title {
+        font-size: 3rem;
+        line-height: 54px;
+    }
 
+
+
+    .small-article__block-wrapper {
+        align-items: center;
+        justify-content: center;
+    }
 }
